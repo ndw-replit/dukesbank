@@ -33,6 +33,9 @@
 <title>
   <tt:insert definition="bank" parameter="title"/>
 </title>
+<style>
+  input[type="text"], input[type="password"] { background-color: lightgreen; }
+</style>
 </head>
 <body bgcolor="#ffffff">
   <tt:insert definition="bank" parameter="banner"/>
