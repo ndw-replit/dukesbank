@@ -30,6 +30,9 @@
 <title>
   <fmt:message key="TitleLogon"/>
 </title>
+<style>
+  input[type="text"], input[type="password"] { background-color: lightgreen; }
+</style>
 </head>
 <%@ include file="/template/banner.jsp" %> 
 <center>
